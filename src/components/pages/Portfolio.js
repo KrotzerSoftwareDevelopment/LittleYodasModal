@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
+import tetris from '../assets/tetris.png';
 class Portfolio extends Component {
     render(){
       return (
         
         <CardGroup>
   <Card>
-    <Card.Img variant="top" src="../components/assets/tetris.png" />
+    <Card.Img variant="top" src={tetris} />
     <Card.Body>
       <Card.Title>Tetris </Card.Title>
       <Card.Text>

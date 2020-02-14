@@ -1,13 +1,11 @@
-import React from 'react';
-let i = 0;
-let text = "Hi, My name is Dean Krotzer. I am a Software Developer.";
-let speed = 100;
-
-const typeWriter = () => {
-    if (i < text.length) {
-        document.getElementById("typeWriterTag").innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
- export default typeWriter;
+import React, { Component } from 'react';
+import Typing from 'react-typing-animation';
+import '../pages/Home.css';
+const AnimatedTypingComponent = () => (
+    <Typing>
+      <span>This span will get typed.</span>
+    </Typing>
+  );
+  
+  
+  export default AnimatedTypingComponent;

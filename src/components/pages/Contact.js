@@ -3,7 +3,12 @@ class Contact extends Component {
     render(){
       return (
         <div>
-        <p>Contact Page is HEree!!!! yeah!/</p>
+        <p>
+       Git Hub Logo and Link
+       Email link and Logo
+       please refer to my resume and cover letter
+        
+        </p>
         </div>
 
       ); 
