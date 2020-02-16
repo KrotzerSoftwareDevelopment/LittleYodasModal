@@ -23,11 +23,13 @@ class About extends Component {
        <Typing>
         <h1>The Last four years</h1>
         </Typing>
-        Aside from earing my Mobile Application Development degree with honors, and a current member of Phi Theta Kappa Honor Society.
+        Aside from earning my Mobile Application Development degree with honors, and a current member of Phi Theta Kappa Honor Society.
         I have spent most of my personal time coding, being a Dad and teaching my kids how to program at a young age.
         My current stack is Javascript and Python along with the majority of frameworks associated with them. 
         I have a strong desire to create scalable reusable code and programs. 
-        I aspire to lead a team of engineers through a full development life cycle.
+        I aspire to lead a team of engineers through a full development life cycle right onto deployment and publishing. I never get tired of coding!
+I enjoy solving complex problems and I have always loved math, Trigonometry is probably my favorite and Calculus is my least favorite, but have no problems working with either one.
+
         </p>
         </div>
 
