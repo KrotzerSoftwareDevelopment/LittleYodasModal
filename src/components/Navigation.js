@@ -6,7 +6,7 @@ class Navigation extends React.Component {
   render(){
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand"><Link to="/Homepage">Krotzer Software Development</Link> </a>
+        <a className="navbar-brand"><Link to="/">Krotzer Software Development</Link> </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -14,7 +14,7 @@ class Navigation extends React.Component {
           <div className="navbar-nav">
             <a className="nav-item nav-link" ><Link to="/Portfolio">Portfolio</Link></a>
             <a className="nav-item nav-link" ><Link to="/About">About</Link></a>
-            <a className="nav-item nav-link" ><Link to="/Contact">Contact</Link></a>
+          
           </div>
         </div>
       </nav>

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-import tetris from '../assets/tetris.png';
+import tetris from '../assets/tetris.mov';
+import FaceRec from '../assets/facerec.mov';
+import BtcTracker from '../assets/btctracker.mov';
+import { Link } from 'react-router-dom';
 class Portfolio extends Component {
     render(){
       return (
@@ -10,40 +13,38 @@ class Portfolio extends Component {
   <Card>
     <Card.Img variant="top" src={tetris} />
     <Card.Body>
-      <Card.Title>Tetris </Card.Title>
+      <Card.Title><Link to='https://krotzer.herokuapp.com'>Tetris </Link></Card.Title>
       <Card.Text>
-        Play Tetris created with react!
+        Play Tetris created with react! I add some extra shapes and my first initial "d". 
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Uploaded but needing mobile support!</small>
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={FaceRec} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Facial Recognition API Utilization</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Facial Recognition app has a fully intergrated front and back end using javascript check it out! 
+      It will automatically rank you in the usage you have input.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Upload coming soon!</small>
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={BtcTracker} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Crypto Currency Checker</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      This app makes checking crypto prices readily available. Updating 7 day and 24 hours! 
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Upload coming soon!</small>
     </Card.Footer>
   </Card>
 </CardGroup>
