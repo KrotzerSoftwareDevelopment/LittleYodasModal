@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../pages/about.css';
 import Typing from 'react-typing-animation';
-import PortPic from '../assets/portpic.png';
+import PortPic from '../assets/portpic.jpg';
 class About extends Component {
     render(){
       return (
@@ -28,8 +28,8 @@ class About extends Component {
         My current stack is Javascript and Python along with the majority of frameworks associated with them. 
         I have a strong desire to create scalable reusable code and programs. 
         I aspire to lead a team of engineers through a full development life cycle right onto deployment and publishing. I never get tired of coding!
-I enjoy solving complex problems and I have always loved math, Trigonometry is probably my favorite and Calculus is my least favorite, but have no problems working with either one.
-
+        I enjoy solving complex problems and I have always loved math, Trigonometry is probably my favorite and Calculus is my least favorite, but have no problems working with either one.
+        I work well with teams and have no problems pulling my own wieght, finishing every task on time and helping others that may need some extra help to make there dead lines.
         </p>
         </div>
 
