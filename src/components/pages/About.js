@@ -1,36 +1,23 @@
 import React, { Component } from 'react';
 import '../pages/about.css';
-import Typing from 'react-typing-animation';
-import PortPic from '../assets/portpic.jpg';
+
+
 class About extends Component {
     render(){
       return (
         <div>
-        
-        <div className="portContainer">
-        <img src={PortPic} className="portpic"></img>
-        </div>
-        <p className="pContainer">
-        <h1>My Mentor</h1>
-        I was Named after my grandfather; he was also my mentor and father figure. 
-        He was a great innovator and an inspiration to many. 
-        He created great things like the giant Paul Bunyan statue in Akeley Minnesota.
-        He also created a life size renaissance castle replica in Caver Massachusetts.
-        He passed away doing what he loved, and he changed the world while doing it. 
-        You can expect nothing less from me as well. I strive to break barriers, push limits, create, grow with software and hardware creation. 
-        
+        <h1>LittleYodas - About </h1>
+        <br />
+        <br />
+        I work from home as a Software Engineer, but my dogs are equally my passion. <br />
 
-       <Typing>
-        <h1>The Last four years</h1>
-        </Typing>
-        Aside from earning my Mobile Application Development degree with honors, and a current member of Phi Theta Kappa Honor Society.
-        I have spent most of my personal time coding, being a Dad and teaching my kids how to program at a young age.
-        My current stack is Javascript and Python along with the majority of frameworks associated with them. 
-        I have a strong desire to create scalable reusable code and programs. 
-        I aspire to lead a team of engineers through a full development life cycle right onto deployment and publishing. I never get tired of coding!
-        I enjoy solving complex problems and I have always loved math, Trigonometry is probably my favorite and Calculus is my least favorite, but have no problems working with either one.
-        I work well with teams and have no problems pulling my own wieght, finishing every task on time and helping others that may need some extra help to make there dead lines.
-        </p>
+        my Cairns are both of my kids life, they wake up to them and they go to sleep in my kids beds.
+        <br />
+        I am a small dog breeder having about 2 to 4 litters a year. 
+        Feeding only the best foods and providing plenty of exercise.
+        <br />
+        Striving to provide premium quality puppies.
+        <p></p>
         </div>
 
         

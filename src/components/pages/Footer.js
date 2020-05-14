@@ -1,5 +1,6 @@
 import React from "react";
 import StickyFooter from 'react-sticky-footer';
+import '../pages/Home.css';
 class Footer extends React.Component {
   render(){
     return (
@@ -9,12 +10,11 @@ class Footer extends React.Component {
         backgroundColor: "#999999",
         padding: "2rem"
         }}
-        stickyStyles={{
-        backgroundColor: "rgba(255,255,255,.8)",
-        padding: "2rem"
-        }}
+        
     >
-        Add any footer markup here
+    <div className="copyrightText">
+        &copy; 2020 LittleYodas All Rights Reserved
+        </div>
     </StickyFooter>
     ); 
   

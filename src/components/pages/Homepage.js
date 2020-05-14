@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
-import Typing from 'react-typing-animation';
+import {Jumbotron, Button } from 'react-bootstrap';
 import '../pages/Home.css';
-class Homepage extends React.Component {
-    render(
 
-    ){
+class Homepage extends React.Component {
+    render(){
+      
+      
+      
       return (
+        
 <div>
-  <div className="background">
-  <Typing>
-  <div className="typeFont">
-    My name is Dean Krotzer,
-    <Typing.Delay ms={1000} />
-    I am a Javascript & Python Software Engineer.
-  </div>
-</Typing>
-  </div>
+
+<Jumbotron>
+  <h1>Welcome, to LittleYodas!</h1>
+  <h4> - Dogs are Family - </h4>
+  <p>
+    In order to access the ability to see puppy prices, buy a puppy or put a deposit down you must register first.
+  </p>
+  <p>
+    <Button variant="primary">Register Now</Button>
+  </p>
+</Jumbotron>
   </div>
       ); 
     }

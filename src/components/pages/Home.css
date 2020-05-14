@@ -2,16 +2,53 @@
     min-height: 100vh;
     padding-top: 50px;
     background: fixed;
-    
-    background-image: url("/bg.png");
-    
-
-   
+    background-image: url("/bg1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
  }
+ #navifontLogo{
+   font-family: OldLondon, Arial, Helvetica, sans-serif;
+
+ }
+ #puppiesPage{
+    padding: 2vw;
+ }
+ .copyrightText{
+   color:white;
+ }
+ #jumboImg{
+    background-image: url("../assets/DaphneFirstLitter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+ }
+#missRedCard{
+   width: 30vw;
+   height: 60vh;
+}
+#missredModal{
+   width: 30vw;
+   height: 40vh;
+}
+#mrWhiteModal{
+   width: 30vw;
+   height: 40vh;
+}
+#MrBlueModal{
+   width: 30vw;
+   height: 40vh;
+}
+#Daphne{
+   width: 30vw;
+   height: 40vh;
+}
+#logo{
+   width: 7vw;
+   height: 7vh;
+}
+
  .typeFont{
      
      padding-top: 225px;
@@ -21,7 +58,57 @@
     color: white;
     
  }
+ .Reg{
+    height: 20vh;
+    width: 80vw;
+ }
+ .RegCard{
+    text-align: center;
+ }
+ .CardInput{
+    align-self: center;
+ }
  .fill{
     height: 100%;
     width: 100%;
  }
+
+/* Registration card buttons */
+ .steps-form-2 {
+   display: table;
+   width: 100%;
+   position: relative; }
+.steps-form-2 .steps-row-2 {
+   display: table-row; }
+.steps-form-2 .steps-row-2:before {
+   top: 14px;
+   bottom: 0;
+   position: absolute;
+   content: " ";
+   width: 100%;
+   height: 2px;
+   background-color: #7283a7; }
+.steps-form-2 .steps-row-2 .steps-step-2 {
+   display: table-cell;
+   text-align: center;
+   position: relative; }
+.steps-form-2 .steps-row-2 .steps-step-2 p {
+   margin-top: 0.5rem; }
+.steps-form-2 .steps-row-2 .steps-step-2 button[disabled] {
+   opacity: 1 !important;
+   filter: alpha(opacity=100) !important; }
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2 {
+   width: 70px;
+   height: 70px;
+   border: 2px solid #59698D;
+   background-color: white !important;
+   color: #59698D !important;
+   border-radius: 50%;
+   padding: 22px 18px 15px 18px;
+   margin-top: -22px; }
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2:hover {
+   border: 2px solid #4285F4;
+   color: #4285F4 !important;
+   background-color: white !important; }
+.steps-form-2 .steps-row-2 .steps-step-2 .btn-circle-2 .fa {
+   font-size: 1.7rem; }
